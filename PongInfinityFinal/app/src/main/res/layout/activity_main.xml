@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:background="@drawable/splash"
+        tools:context="com.jandir.dalip.ponginfinityfinal.MainActivity">
+
+    <ImageButton
+            android:id="@+id/buttonStart"
+            android:background="@drawable/start"
+            android:layout_width="220dp"
+            android:layout_height="60dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"/>
+
+    <ImageButton
+            android:id="@+id/buttonTutorial"
+            android:background="@drawable/tutorialtrial"
+            android:layout_width="220dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/buttonStart" android:layout_alignLeft="@+id/buttonStart"
+            android:layout_alignStart="@+id/buttonStart" android:layout_marginTop="17dp"/>
+
+    <!--<ImageButton-->
+            <!--android:id="@+id/buttonScores"-->
+            <!--android:background="@drawable/hiscores"-->
+            <!--android:layout_width="220dp"-->
+            <!--android:layout_height="60dp"-->
+            <!--android:layout_marginTop="17dp"-->
+            <!--android:layout_below="@+id/buttonTutorial" android:layout_alignLeft="@+id/buttonTutorial"-->
+            <!--android:layout_alignStart="@+id/buttonTutorial"/>-->
+
+</RelativeLayout>
